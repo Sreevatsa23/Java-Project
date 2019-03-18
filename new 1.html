@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+.div1 {
+  width: 300px;
+  height: 300px;
+  border: 1px ;
+  background-color:red;
+}
+body{
+  background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2016/02/03/887506/e5955979b4907dceedb10db26aa84eb1-700.jpg");
+}
+
+
+</style>
+</head>
+<body>
+<form>
+<div class="div1" id="id1" onmouseover="call()" onmouseout="callme()">
+
+</div>
+</form>
+
+</body>
+<script>
+//var c=true;
+function call()
+
+{
+ //if (c)
+ 
+     document.getElementById("id1").style.backgroundColor="green";
+	 //c=false
+ }
+ /*else
+ {*/
+ function callme()
+ {
+     document.getElementById("id1").style.backgroundColor="red";
+	// c=true;
+ 
+ 
+}
+</script>
+</html>
